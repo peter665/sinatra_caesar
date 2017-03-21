@@ -1,5 +1,5 @@
 require 'sinatra'
-if development? require 'sinatra/reloader' end
+require 'sinatra/reloader' if development?
 
 def caesar_cipher str, n
   letters = ('a'..'z').to_a
