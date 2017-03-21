@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <title>Caesar Cipher</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container">
+      <div class="page-header">
+        <h1>
+          Caesar Cipher
+          <small>This site will encode your text into a cipher user by Julius Caesar.</small>
+        </h1>
+      </div>
+      <form method='post'>
+        <div class="form-group">
+          <label for="orig_text">Text to encode:</label>
+          <input type="text" class="form-control" name="orig_text" placeholder="Your text here...">
+        </div>
+        <div class="form-group">
+          <label for="shift">Number 1 - 26</label>
+          <input type="text" class="form-control" name="shift" placeholder="Your number">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
